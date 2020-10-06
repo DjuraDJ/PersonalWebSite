@@ -47,7 +47,7 @@ class SimpleList extends Component {
             display: "line-block",
             listStyle: "none",
             overflow: "none",
-            height: "150px",
+            height: "110px",
             width: "250px",
             paddingLeft: "38%",
           }}
@@ -57,19 +57,13 @@ class SimpleList extends Component {
           })}
         </ol>
 
-        <ol
-          style={{
-            display: "line-block",
-            listStyle: "none",
-            height: "250px",
-            width: "250px",
-            paddingBottom: "85%",
-            paddingLeft: "55%",
-            marginTop: "-11%",
-          }}
-        >
+        <ol class="pl1">
           {prgmlist2.map((programming2) => {
-            return <li key={programming2.key}>{programming2.description}</li>;
+            return (
+              <li id="pl2" key={programming2.key}>
+                {programming2.description}
+              </li>
+            );
           })}
         </ol>
       </div>

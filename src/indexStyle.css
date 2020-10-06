@@ -45,3 +45,18 @@
 .pl {
   text-align: center;
 }
+.pl1 {
+  display: inline-block;
+  list-style: none;
+  height: "250px";
+  width: "250px";
+  padding-bottom: 85%;
+  padding-left: 55%;
+  margin-top: -40%;
+}
+
+@media (max-width: 600px) {
+  .pl2 {
+    margin-top: -34%;
+  }
+}
