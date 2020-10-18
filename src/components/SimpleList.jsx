@@ -6,7 +6,6 @@ import { faBorderNone } from "@fortawesome/free-solid-svg-icons";
 import React, { Component } from "react";
 import "../indexStyle.css";
 
-import { useDencrypt } from "use-dencrypt-effect";
 import { text } from "@fortawesome/fontawesome-svg-core";
 
 /* An array of strings then use of list to create list*/

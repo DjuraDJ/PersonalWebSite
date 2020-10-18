@@ -11,7 +11,7 @@ import "react-alice-carousel/lib/alice-carousel.css";
 function Header() {
   return (
     <div class="carousel-slide">
-      <AliceCarousel autoPlay autoPlayInterval="1000">
+      <AliceCarousel autoPlay autoPlayInterval="5000">
         <img
           class="beach"
           src="https://i.pinimg.com/originals/5d/97/b8/5d97b8478ab7fefd6af1b85225640e6d.jpg"
@@ -19,8 +19,8 @@ function Header() {
         />
         <img
           class="beach"
-          src="https://cdn.pixabay.com/photo/2013/02/21/19/06/beach-84533__340.jpg"
-          alt=""
+          src="https://cdn.wallpapersafari.com/14/33/DwNWfd.jpg"
+          alt="Beach"
         />
         <img
           class="beach"

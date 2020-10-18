@@ -19,7 +19,7 @@ import { List } from "react-content-loader";
 {
   /* Displays h1 tag of name with effects of sliding accross screen, as well use of Text and Scrambler componet  */
 }
-function Myinfo(props) {
+function Myinfo() {
   return (
     <div>
       <div class="name">
@@ -36,7 +36,7 @@ function Myinfo(props) {
          at Mohawk College with 2+ years’ experience in Software development."
         />
         <br />
-        <Scrambler text="In designing/developing/implementation/analysis and testing across multiple environments.  As self-started who works well both independently and as part of a team." />
+        <Scrambler text="In designing/developing/implementation/analysis and testing across multiple environments.As self-started who works well both independently and as part of a team." />
       </div>
       <br />
     </div>

@@ -7,10 +7,11 @@ import React from "react";
 //import Navbar from "./Navbar";
 //import MainContent from "./MainContent";
 import Header from "./Header";
-import Checkbox from "./Checkbox";
 import Myinfo from "./Myinfo";
 import Navbar from "./Navbar";
 import SimpleList from "./SimpleList";
+
+
 
 import "../indexStyle.css";
 import "bootstrap/dist/css/bootstrap.css";
@@ -22,6 +23,7 @@ function App() {
       <Navbar /> {/* Nav bar */}
       <Myinfo /> {/* my information about  */}
       <SimpleList /> {/* List of all programming languages */}
+    
     </div>
   );
 }
