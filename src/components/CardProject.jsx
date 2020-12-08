@@ -32,7 +32,13 @@ class CardProject extends Component {
         <BackSide id = "BackCardProject2">
           AmazeBot 
         </BackSide>
-
+           
+        <FrontSide id = "FrontCardProject3">
+          REACT Projects 
+        </FrontSide>
+        <BackSide id = "BackCardProject3">
+          Personal WebSite 
+        </BackSide>
 
       </Flippy>
 
