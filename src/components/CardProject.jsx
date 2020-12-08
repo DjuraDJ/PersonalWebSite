@@ -19,19 +19,27 @@ class CardProject extends Component {
             // and other props, which will go to div
             style={{ width: '200px', height: '200px' }} /// these are optional style, it is not necessary
           >
-              <FrontSide id = "FrontCard">
+        <FrontSide id = "FrontCardProject1">
          C++ Projects 
         </FrontSide>
-        <BackSide id = "BackCard">
+        <BackSide id = "BackCardProject1">
           Employee Database 
         </BackSide>
-      
-       
-          
 
+        <FrontSide id = "FrontCardProject2">
+          Java Projects 
+        </FrontSide>
+        <BackSide id = "BackCardProject2">
+          AmazeBot 
+        </BackSide>
 
 
       </Flippy>
+
+
+      
+
+
 
             
               );

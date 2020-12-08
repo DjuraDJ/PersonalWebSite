@@ -52,7 +52,7 @@
   width: "250px";
   padding-bottom: 7%;
   padding-left: 55%;
-  margin-top: -40%;
+  margin-top: -23%;
 }
 
 @media (max-width: 600px) {
@@ -60,12 +60,27 @@
     margin-top: -34%;
   }
 }
+
+.CardProj {
+  width: 20%;
+  height: 20%;
+}
 .styles_LogoImg__2wRK6 {
   display: none;
 }
-#FrontCard {
+#FrontCardProject1 {
   background-color: #41669d;
 }
-#BackCard {
+#BackCardProject1 {
   background-color: #175852;
+}
+#FrontCardProject2 {
+  background-color: aqua;
+  margin-left: 150%;
+  margin-bottom: -101%;
+  margin-top: -99%;
+}
+#BackCardProject2 {
+  background-color: aqua;
+  margin-left: 150%;
 }
