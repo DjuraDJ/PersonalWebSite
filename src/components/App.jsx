@@ -10,8 +10,7 @@ import Header from "./Header";
 import Myinfo from "./Myinfo";
 import Navbar from "./Navbar";
 import SimpleList from "./SimpleList";
-
-
+import CardProject from "./CardProject"; 
 
 import "../indexStyle.css";
 import "bootstrap/dist/css/bootstrap.css";
@@ -23,6 +22,8 @@ function App() {
       <Navbar /> {/* Nav bar */}
       <Myinfo /> {/* my information about  */}
       <SimpleList /> {/* List of all programming languages */}
+      <CardProject />
+    
     
     </div>
   );

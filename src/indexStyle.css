@@ -50,7 +50,7 @@
   list-style: none;
   height: "250px";
   width: "250px";
-  padding-bottom: 85%;
+  padding-bottom: 7%;
   padding-left: 55%;
   margin-top: -40%;
 }
@@ -62,4 +62,10 @@
 }
 .styles_LogoImg__2wRK6 {
   display: none;
+}
+#FrontCard {
+  background-color: #41669d;
+}
+#BackCard {
+  background-color: #175852;
 }
