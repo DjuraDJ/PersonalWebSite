@@ -4,7 +4,8 @@ import Flippy, { FrontSide, BackSide } from 'react-flippy';
 
 class CardProject extends Component {
     state = {  }
-    render() { 
+    render() {
+       
     
 
         return (
